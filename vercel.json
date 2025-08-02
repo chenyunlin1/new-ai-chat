@@ -17,6 +17,8 @@
       "maxDuration": 60,
       "memory": 1024
     }
+  },
+  "env": {
+    "DEEP_SEEK_KEY": "@deep_seek_key"
   }
- 
 }
