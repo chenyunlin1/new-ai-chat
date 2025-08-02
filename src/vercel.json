@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/deepseek",
+      "dest": "/api/deepseek.js",
+      "methods": ["POST", "OPTIONS"]
+    }
+  ],
+  "functions": {
+    "api/deepseek.js": {
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  }
+}
